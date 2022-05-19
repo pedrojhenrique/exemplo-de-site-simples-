@@ -1,0 +1,539 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*---GERAL---*/
+.header {
+    background-color: rgb(44, 44, 44);
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.titulo {
+    background-color: white;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 10px 10px;
+    float: left;
+    margin-top: -4;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo:hover {
+    box-shadow: 15px 15px;
+}
+
+.menu {
+    float: right;
+    margin-right: 50px;
+    margin-top: -11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu a {
+    color: rgb(255, 255, 255);
+    float: right;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+/*--- HOME ---*/
+.parte1 {
+    background-color: rgb(218, 52, 52);
+    color: black;
+    height: 55%;
+    padding: 100px;
+}
+
+.parte2 {
+    background-color: rgb(161, 158, 158);
+    color: black;
+    height: 55%;
+    padding: 100px;
+}
+
+.imagem {
+    float: left;
+    box-shadow: 10px 10px;
+}
+
+.imagem:hover {
+    box-shadow: 20px 20px;
+}
+
+.descricao {
+    border-left: black solid 8px;
+    padding-left: 10px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    font-size: 30px;
+    width: 50%;
+    margin-top: 100px;
+}
+
+.descricao:hover {
+    border-left: 15px solid black;
+}
+
+.saibamais {
+    float: right;
+    text-align: center;
+    margin-right: 150px;
+    margin-top: 80px;
+}
+
+
+
+
+.imagem2 {
+    float: right;
+    box-shadow: 10px 10px;
+}
+
+.imagem2:hover {
+    box-shadow: 20px 20px;
+}
+
+.saibasobre {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+.botaocss {
+    cursor: pointer;
+    width: 50%;
+    height: 10%;
+    color: white;
+    background-color: black;
+    border: 3px solid black;
+    border-radius: 100px;
+}
+
+.botaocss:hover {
+    background-color: white;
+    color: black;
+    border: none;
+    box-shadow: 10px 10px;
+}
+
+
+
+/*--- PAGINA 2 ---*/
+
+.video {
+    width: 700px;
+    height: 400px;
+    box-shadow: 10px 10px rgb(0, 0, 0);
+}
+
+.video:hover {
+    box-shadow: 20px 20px rgb(0, 0, 0);
+}
+
+.divvideo {
+
+    background-color: rgb(218, 52, 52);
+    padding: 100px;
+    text-align: center;
+
+}
+
+.titulovideo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+
+
+.divconteudo {
+    background-color: rgb(161, 158, 158);
+    padding: 100px;
+    height: 65%;
+    padding-bottom: 200px;
+}
+
+.descricaovideo {
+    background-color: rgb(36, 36, 36);
+    padding: 30px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 30px;
+}
+
+.elementosvideo {
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+.topicoelementos {
+    background-color: white;
+    padding: 50px;
+    float: left;
+    box-shadow: 10px 10px;
+
+}
+
+.topicoelementos:hover {
+    box-shadow: 15px 15px;
+}
+
+.topicolayout {
+    background-color: white;
+    float: right;
+    padding: 50px;
+    padding-bottom: 85px;
+    box-shadow: 10px 10px;
+}
+
+.topicolayout:hover {
+    box-shadow: 15px 15px;
+}
+
+
+/*--- CONTATO ---*/
+
+.conteudocontato {
+    height: 100%;
+    text-align: center;
+    background-color: rgb(218, 52, 52);
+}
+
+.formulario {
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(196, 193, 193);
+    padding: 30px;
+    box-shadow: 10px 10px;
+}
+
+.formulario input {
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 100px;
+    padding: 10px;
+    width: 500px;
+    height: 70px;
+    box-shadow: 10px 10px;
+
+}
+
+.formulario input:focus {
+    box-shadow: 5px 5px;
+    outline: none;
+}
+
+.formulario textarea {
+
+    margin-bottom: 30px;
+    height: 100px;
+    padding: 10px;
+    width: 500px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 10px 10px;
+    outline: none;
+    resize: none;
+
+}
+
+.formulario textarea:focus {
+    box-shadow: 5px 5px;
+}
+
+#mensagem {
+    margin-bottom: 30px;
+}
+
+
+
+#botao {
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: rgb(24, 24, 24);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+
+}
+
+#file {
+    border: none;
+    background-color: white;
+}
+
+
+
+/*---RESPONSIVIDADE---*/
+
+@media screen and (max-width: 480px) {
+
+
+    /*--- GERAL ---*/
+
+    .header {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 40px;
+
+    }
+
+    .titulo {
+        float: none;
+        margin: 0;
+        width: 150px;
+        margin: 0 auto;
+    }
+
+    .menu {
+        padding-top: 20px;
+        float: none;
+        margin-left: 50px;
+        margin-right: 0;
+        width: 70%;
+    }
+
+    /*--- HOME ---*/
+
+
+    /*Parte 1*/
+
+    .parte1 {
+        padding-top: 100px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        text-align: center;
+        height: 90%;
+    }
+
+    .imagem {
+        float: none;
+        width: 90%;
+        height: auto;
+    }
+
+    .descricao {
+        float: none;
+        padding-left: 0;
+        padding-top: 15px;
+        border-top: black solid 8px;
+        border-left: none;
+        width: 80%;
+        margin-top: 50px;
+
+    }
+
+    .descricao:hover {
+        border-left: none;
+        border-top: 15px solid black;
+    }
+
+    /*Parte 2*/
+
+    .parte2 {
+        padding-top: 100px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        text-align: center;
+        height: 90%;
+    }
+
+    .imagem2 {
+        float: none;
+        width: 90%;
+        height: auto;
+    }
+
+    .saibamais {
+        margin-right: 0;
+
+    }
+
+
+
+    /*--- PÁGINA 2 ---*/
+
+
+    /*Parte 1*/
+
+    .divvideo {
+        padding-top: 100px;
+        padding-left: 20px;
+        padding-bottom: 100px;
+        padding-right: 20px;
+    }
+
+    .video {
+        width: 100%;
+        height: auto;
+    }
+
+    .video:hover {
+        box-shadow: 13px 13px white;
+    }
+
+
+    .seta {
+        top: 117%;
+        left: 180px;
+    }
+
+    /*Parte 2*/
+
+    .divconteudo {
+        
+        margin-top: 0;
+        padding-top: 100px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        height: 120%;
+    }
+
+    .topicoelementos {
+        margin: 0 auto;
+        float: none;
+        width: 50%;
+        margin-bottom: 80px;
+    }
+
+    .topicolayout {
+        float: none;
+        margin: 0 auto;
+    }
+
+    /*Contato*/
+
+    .conteudocontato {
+        height: 120%;
+    }
+
+    .formulario {
+        margin-top: 150px;
+        width: 70%;
+    }
+
+
+}
+
+#myFooter {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    padding-top: 30px;
+}
+
+#myFooter .row {
+    margin-bottom: 60px;
+}
+
+#myFooter .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter h1{
+    font-size: 50px;
+    margin-left: -70px;
+    color: rgb(230, 16, 16);   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+
+#myFooter .social-networks a {
+    font-size: 32px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover {
+    text-decoration: none;
+}
+
+#myFooter .linkedin:hover {
+    color: #165a96;
+}
+
+#myFooter .instagram:hover {
+    color: rgb(173, 4, 173);
+}
+
+
+#myFooter .btn {
+    color: white;
+    background-color: rgb(196, 20, 20);
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+#myFooter .btn:hover {
+    border-bottom: 8px solid black;
+}
+
