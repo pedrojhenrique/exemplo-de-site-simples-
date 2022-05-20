@@ -1,5 +1,5 @@
 # Exemplo-de-site-simples
-Um modelo de site simples de minha autoria contendo formulário e rodapé, com responsividade para 480px. <br/> Utilizei o tema sobre IoT apenas como demonstrativo.
+Um modelo de site simples de minha autoria contendo formulário e rodapé, com responsividade para 480px. A página utiliza apenas HTML, CSS e JavaScript básico para saudação ao entrar no site. <br/> Utilizei o tema sobre IoT apenas como demonstrativo.
 
 <br/>
 
